@@ -1,0 +1,198 @@
+
+h1{
+	text-align:center;
+	font-size:175%;
+	font-family:Arial,Helvetica,sans-serif;
+}
+.ch{
+	border: 1px solid black;
+	background-color:gray;
+	margin:8px;
+	width:95%;
+	padding:0px;
+	float:left;
+
+}
+.chicks{
+	padding:5px;
+}
+.beefs{
+	padding:5px;
+}
+.sushis{
+	padding:5px;
+}
+.chick{
+     text-align:center;
+	font-size:16px;
+	margin-top:0px;
+	float:right;
+	width:100px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	padding:5px;
+	background-color:pink;
+}
+
+.beef{
+	text-align:center;
+	font-size:16px;
+	margin-top:0px;
+	float:right;
+	width:100px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	padding:5px;
+	background-color:#B22222;
+}
+.sushi{
+	text-align:center;
+	font-size:16px;
+	margin-top:0px;
+	float:right;
+	width:100px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	padding:5px;
+	background-color:#F0E68C;
+}
+
+.row{
+	width:100%;
+}
+/**DESKTOP VIEW**/
+@media(min-width:992px){
+	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,
+	.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+	{
+		float:left;
+	}
+	.col-lg-1{
+		width:8.33%;
+	}
+	.col-lg-2{
+		width:16.66%;
+	}
+	.col-lg-3{
+		width:25%;
+	}
+	.col-lg-4{
+		width:33.33%;
+	}
+	.col-lg-5{
+
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+/***TAB VIEW****/
+
+@media(min-width:768px) and (max-width:991px){
+	.col-tg-1,.col-tg-2,.col-tg-3,.col-tg-4,.col-tg-5,.col-tg-6,
+	.col-tg-7,.col-tg-8,.col-tg-9,.col-tg-10,.col-tg-11,.col-tg-12
+	{
+		float:left;
+	}
+	.col-tg-1{
+		width:8.33%;
+	}
+	.col-tg-2{
+		width:16.66%;
+	}
+	.col-tg-3{
+		width:25%;
+	}
+	.col-tg-4{
+		width:33.33%;
+	}
+	.col-tg-5{
+        width: 41.66%;
+    }
+    .col-tg-6 {
+        width: 50%;
+    }
+    .col-tg-7 {
+        width: 58.33%;
+    }
+    .col-tg-8 {
+        width: 66.66%;
+    }
+    .col-tg-9 {
+        width: 74.99%;
+    }
+    .col-tg-10 {
+        width: 83.33%;
+    }
+    .col-tg-11 {
+        width: 91.66%;
+    }
+    .col-tg-12 {
+    	width:100%;
+    }
+}
+/****CELL VIEW****/
+@media(max-width:767px){
+
+	.col-cg-1,.col-cg-2,.col-cg-3,.col-cg-4,.col-cg-5,.col-cg-6,
+	.col-cg-7,.col-cg-8,.col-cg-9,.col-cg-10,.col-cg-11,.col-cg-12
+	{
+		float:left;
+	}
+	.col-cg-1{
+		width:8.33%;
+	}
+	.col-cg-2{
+		width:16.66%;
+	}
+	.col-cg-3{
+		width:25%;
+	}
+	.col-cg-4{
+		width:33.33%;
+	}
+	.col-cg-5{
+        width:41.66%;
+    }
+    .col-cg-6 {
+        width: 50%;
+    }
+    .col-cg-7 {
+        width: 58.33%;
+    }
+    .col-cg-8 {
+        width: 66.66%;
+    }
+    .col-cg-9 {
+        width: 74.99%;
+    }
+    .col-cg-10 {
+        width: 83.33%;
+    }
+    .col-cg-11 {
+        width: 91.66%;
+    }
+    .col-cg-12 {
+    	width:100%;
+    }
+}
+
